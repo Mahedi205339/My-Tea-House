@@ -35,43 +35,91 @@
 </head>
 
 <body>
-    <header class="container mx-auto">
+    <!-- header section  -->
+    <header class="container mx-auto ">
         <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+            <div class="hero-content gap-0 lg:gap-52 2xl:gap-96  flex-col lg:flex-row md:flex-row">
 
                 <div>
-                    <h1 class="text-7xl font-extrabold">It's good <br>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-extrabold">It's good <br>
                         tea time at The <br> Tea House
                     </h1>
-                    <p class="py-6 text-[18px] w-[510px] text-gray-500">
+                    <p class="py-6  text-gray-500">
                         Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
-                    <button class="btn btn-primary">
+                    <!-- button  -->
+                    <button class="w-52 h-16 rounded-lg text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">
                         Explore More
+                        <i class="fa-solid fa-arrow-right"></i>
                     </button>
                 </div>
-                
+
                 <div>
                     <img src="images/banner.png" class="max-w-sm " />
                     <!-- ratings badge  -->
-                    <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 ">
-                        <i class="text-5xl fa-solid fa-star text-amber-400  "></i>
+                    <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-44 md:w-60 ">
+                        <i class="text-3xl md:text-5xl fa-solid fa-star text-amber-400  "></i>
                         <div>
-                            <h3 class="text-3xl">
-                            5.00
-                        </h3>
-                        <p class="text-[#777]">
-                            Trust Pilot Ratings
-                        </p>
+                            <h3 class="text-2xl md:text-3xl">
+                                5.00
+                            </h3>
+                            <p class="text-[#777] text-[10px] md:text-base ">
+                                Trust Pilot Ratings
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </header>
     <main>
+        <!-- Feature section  -->
+        <div class="text-center leading-4">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold my-6">
+                Our Featured Products
+            </h1>
+            <p class="text-sm text-gray-500 leading-6 max-w-3xl lg:mx-auto mb-16">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mx-12 lg:mx-32
+        my-6">
+        <!-- product-1  -->
+            <div class=" text-center border-b-2 border-gray-200 shadow-2xl">
+                <img class="mx-auto" src="images/tea-1.png" alt="">
+                <div class="">
+                    <h4>Milk Tea</h4>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+            <!-- product-2  -->
+            <div class=" text-center  border-b-2 border-gray-200 shadow-2xl">
+                <img class="mx-auto" src="images/tea-2.png" alt="">
+                <div>
+                    <h4>Creame Tea</h4>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+            <!-- product-3  -->
+            <div class="text-center  border-b-2 border-gray-200 shadow-2xl">
+                <img class="mx-auto" src="images/tea-3.png" alt="">
+                <div>
+                    <h4>Chocolate Mango Tea</h4>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- product-4  -->
+            </div>
+            <div class=" text-center  border-b-2 border-gray-200 shadow-2xl">
+                <img class="mx-auto" src="images/tea-4.png" alt="">
+                <div>
+                    <h4>Light Green Tea</h4>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
 
+            </div>
+        </div>
     </main>
     <footer>
 
